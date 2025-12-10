@@ -1,19 +1,4 @@
--- LEARN HOW TO CODE GUYS DONT BE SKID :)
--- https://discord.gg/VgMatcAwvk
 
- -- FULLY AI GENERATED, NO ONE IN SAB CAN CODE
-
---[[
-    Brainrot Finder v5.1 (Flat "Titanz" Edition)
-    Reorganized and cleaned up for better readability
-    Structure: Config -> Services -> Helpers -> Features -> GUI -> Init
-]]
-
--- ============================================================
--- SECTION 1: CONFIGURATION (REVAMPED)
--- ============================================================
-
--- Initialize global config if it doesn't exist
 getgenv().BRAINROT_CONFIG = {
         -- Keybinds
         TELEPORT_KEYBIND       = nil,
@@ -1045,7 +1030,7 @@ local function createDesyncIndicator()
         Size = UDim2.new(0, 35, 0, 35),
         Position = UDim2.new(0, 12, 0.5, -17.5),
         BackgroundTransparency = 1,
-        Text = "BK's",
+        Text = "D",
         TextColor3 = Color3.fromRGB(220, 120, 255),
         TextSize = 22,
         Font = Enum.Font.GothamBold,
@@ -5456,7 +5441,7 @@ local function createGui()
     title.Size = UDim2.new(1, 0, 0, 22)
     title.Position = UDim2.new(0, isMobile and 15 or (isTablet and 20 or 95), 0, 5)
     title.BackgroundTransparency = 1
-    title.Text = "BK's Hub | v2.5 ;)"
+    title.Text = "Dark Hub | v1.0"
     title.Font = Enum.Font.GothamBold
     title.TextSize = titleSize
     title.TextColor3 = COLORS.Purple
@@ -5473,7 +5458,7 @@ local function createGui()
     sub.Size = UDim2.new(1, 0, 0, 18)
     sub.Position = UDim2.new(0, 15, 0, isMobile and 28 or (isTablet and 29 or 30))
     sub.BackgroundTransparency = 1
-    sub.Text = "@bkmd_ytt | discord.gg/bkshub"
+    sub.Text = "by dark_769."
     sub.Font = Enum.Font.Gotham
     sub.TextSize = subSize
     sub.TextColor3 = COLORS.Pink
@@ -5580,7 +5565,7 @@ local function createGui()
             Position = UDim2.new(1, -80, 0, 15),
             BackgroundColor3 = COLORS.Purple,
             BackgroundTransparency = 0.2,
-            Text = ";)",
+            Text = "",
             TextColor3 = COLORS.Text,
             TextSize = 28,
             Font = Enum.Font.GothamBold,
@@ -5649,7 +5634,7 @@ local function createGui()
         Size = UDim2.new(1, -60, 0, 25),
         Position = UDim2.new(0, 15, 0, 10),
         BackgroundTransparency = 1,
-        Text = "BK's Hub | v2.5 ;)",
+        Text = "Dark Hub | v1.0",
         TextColor3 = COLORS.Purple,
         TextSize = isMobile and 17 or (isTablet and 18 or 19),
         Font = Enum.Font.GothamBold,
@@ -5664,7 +5649,7 @@ local function createGui()
         Size = UDim2.new(1, -60, 0, 18),
         Position = UDim2.new(0, 15, 0, 35),
         BackgroundTransparency = 1,
-        Text = "by Tuff Boii | @bkmd_ytt | discord.gg/bkshub",
+        Text = "by dark_769.",
         TextColor3 = COLORS.Pink,
         TextSize = isMobile and 11 or (isTablet and 12 or 13),
         Font = Enum.Font.Gotham,
@@ -5687,7 +5672,7 @@ local function createGui()
     Instance.new("UICorner", tabBar).CornerRadius = UDim.new(0, 10)
     
     local tabButtons = {}
-    local tabNames = { "Brainrots", "Priority", "Tuff :3", "Stats" }
+    local tabNames = { "Brainrots", "Priority", "Function", "Stats" }
     local tabIds = { "animals", "favorites", "actions", "stats" }
     
     local numTabs = #tabNames
@@ -6104,7 +6089,7 @@ local function createMiniGui()
         Size = UDim2.new(1, -50, 1, 0),
         Position = UDim2.new(0, 15, 0, 0),
         BackgroundTransparency = 1,
-        Text = ";) Undivided Mini Gui",
+        Text = "Mini Gui",
         TextColor3 = COLORS.Accent,
         TextSize = 14,
         Font = Enum.Font.GothamBold,
